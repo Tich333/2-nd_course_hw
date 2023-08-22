@@ -9,6 +9,46 @@ body{
   padding-left: calc(50% - 600px);
   padding-right: calc(50% - 600px);
 }
-.a {
+a {
   text-decoration: none
+}
+
+.top{
+  background-image: url(img/top_back.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1024px;
+  &_title{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 700;
+    max-width: 788.778px;
+    padding-top: 217px;
+  }
+  &_text{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    max-width: 481px;
+    padding-top: 32px;
+    &-link{
+      color: #FFF;
+      font-weight: 700;
+    }
+  }    
+  &_button{
+    border-radius: 30px;
+    background: #9C0332;
+    border: none;
+    width: 234.063px;
+    height: 48.603px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 44px;
+    padding: 13px 74px;
+
+  }
 }
