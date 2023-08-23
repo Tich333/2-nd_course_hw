@@ -53,4 +53,32 @@ a {
   font-weight: 400;
   margin-top: 44px;
   padding: 13px 74px;
+  display: block;
+  box-sizing: border-box;
+}
+
+.content {
+  background-image: url(img/content-back.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+.content_card {
+  position: relative;
+  cursor: url();
+}
+.content_card-text {
+  position: absolute;
+  top: 236px;
+  left: 32px;
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
