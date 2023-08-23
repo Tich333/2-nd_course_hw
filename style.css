@@ -56,6 +56,9 @@ a {
   display: block;
   box-sizing: border-box;
 }
+.top_button:hover {
+  cursor: url(img/top_cursor.svg), pointer;
+}
 
 .content {
   background-image: url(img/content-back.jpg);
@@ -72,13 +75,18 @@ a {
 
 .content_card {
   position: relative;
-  cursor: url();
 }
-.content_card-text {
+.content_card .content_card-img:hover {
+  cursor: url(img/top_cursor.svg), pointer;
+}
+.content_card .content_card-text {
   position: absolute;
   top: 236px;
   left: 32px;
   color: #FFF;
   font-size: 24px;
   font-weight: 600;
+}
+.content_card .content_card-text:hover {
+  cursor: url(img/top_cursor.svg), pointer;
 }/*# sourceMappingURL=style.css.map */
