@@ -75,6 +75,10 @@ a {
 
 .content__card {
   position: relative;
+  transition: all 0.5s;
+}
+.content__card:hover {
+  transform: scale(1.05);
 }
 .content__card .content__card_img:hover {
   cursor: url(img/top_cursor.svg), pointer;
