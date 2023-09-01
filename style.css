@@ -55,9 +55,12 @@ a {
   padding: 13px 74px;
   display: block;
   box-sizing: border-box;
+  transition: all 0.5s;
 }
 .top__button:hover {
   cursor: url(img/top_cursor.svg), pointer;
+  background: #EB443F;
+  transform: scale(1.05);
 }
 
 .content {
@@ -79,6 +82,8 @@ a {
 }
 .content__card:hover {
   transform: scale(1.05);
+  outline: 3px solid #44D2FF;
+  border-radius: 16px;
 }
 .content__card .content__card_img:hover {
   cursor: url(img/top_cursor.svg), pointer;
