@@ -24,8 +24,8 @@
     font-size: 14px;
     line-height: 22px;
   }
-    .center-button {
-      padding-top: 32px;
+    .mob-button {
+      // padding-top: 32px;
       display: flex;
       justify-content: center;
       /* Горизонтальное выравнивание по центру */
@@ -38,7 +38,36 @@
     width: 343px;
   }    
 }
-  
+
+.Seasons__title {
+  text-align: center;
+  font-size: 32px;
+  padding-top: 51px;
+}
+    
+.Seasons__text {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  width: 343px;
+}
+
+.Seasons__img {
+  width: 344px;
+  height: 236px;
+  padding-top: 64px;
+} 
+
+
+
+    
+    
+    
+    
+    
+    
+    
   
   
     
