@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -98,4 +99,41 @@ a {
 }
 .content__card .content__card_text:hover {
   cursor: url(img/top_cursor.svg), pointer;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
+    height: 735px;
+  }
+  .top__title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    max-width: 100%;
+    padding-top: 236px;
+  }
+  .top__text {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    max-width: 100%;
+    padding-top: 32px;
+  }
+  .top__text_link {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .center-button {
+    padding-top: 32px;
+    display: flex;
+    justify-content: center;
+    /* Горизонтальное выравнивание по центру */
+  }
+  .content__card_img {
+    width: 343px;
+  }
 }/*# sourceMappingURL=style.css.map */
