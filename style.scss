@@ -116,13 +116,17 @@ a {
   }
 }
 
+
 .Seasons {
+  background-image: url(./img/Seasons.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   display: flex;
   flex-wrap: wrap;
   gap: 130px;
-  background-image: url(./img/Seasons.jpg)
+  justify-content: center;
 }
-
 .Seasons__title{
   color: #FFF;
   font-size: 48px;
@@ -157,15 +161,70 @@ a {
     transform: scale(1.05);
   }
 }
-
 .Seasons__img{
   width: 485px;
   height: 333px;
   padding-top: 234px;
   padding-bottom: 234px;
 }      
+
         
-        
+  
+.words{
+  background-image: url(./img/words_bck.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  &__img{
+    width: 481px;
+    padding-top: 239px;
+    padding-bottom: 239px;
+  }
+  &__right{
+    width: 588px;
+    &_title {
+        color: #FFF;
+        font-size: 48px;
+        font-weight: 700;
+        padding-top: 282px;
+      }
+      &_text{
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 32px;
+        padding-top: 32px;
+      }
+      &_button {
+        border-radius: 30px;
+        background: #9C0332;
+        border: none;
+        width: 234.063px;
+        height: 48.603px;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 13px 74px;
+        box-sizing: border-box;
+        transition: all 0.5s;
+        margin-top: 32px;
+        &:hover {
+            cursor: url(img/top_cursor.svg), pointer;
+            background: #EB443F;
+            transform: scale(1.05);
+          }
+      }
+  }
+          
+          
+}
+    
+    
+
 @import 'mobail';
 // @media (max-width: 767px) {
 //   .center {
