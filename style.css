@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -55,9 +56,12 @@ a {
   padding: 13px 74px;
   display: block;
   box-sizing: border-box;
+  transition: all 0.5s;
 }
 .top__button:hover {
   cursor: url(img/top_cursor.svg), pointer;
+  background: #EB443F;
+  transform: scale(1.05);
 }
 
 .content {
@@ -79,6 +83,8 @@ a {
 }
 .content__card:hover {
   transform: scale(1.05);
+  outline: 3px solid #44D2FF;
+  border-radius: 16px;
 }
 .content__card .content__card_img:hover {
   cursor: url(img/top_cursor.svg), pointer;
@@ -93,4 +99,109 @@ a {
 }
 .content__card .content__card_text:hover {
   cursor: url(img/top_cursor.svg), pointer;
+}
+
+.Seasons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 130px;
+  background-image: url(./img/Seasons.jpg);
+}
+
+.Seasons__title {
+  color: #FFF;
+  font-size: 48px;
+  font-weight: 700;
+  padding-top: 282px;
+}
+
+.Seasons__text {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  padding-top: 32px;
+  width: 584px;
+}
+
+.Seasons__button {
+  border-radius: 30px;
+  background: #9C0332;
+  border: none;
+  width: 234.063px;
+  height: 48.603px;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 13px 74px;
+  box-sizing: border-box;
+  transition: all 0.5s;
+  margin-top: 32px;
+}
+.Seasons__button:hover {
+  cursor: url(img/top_cursor.svg), pointer;
+  background: #EB443F;
+  transform: scale(1.05);
+}
+
+.Seasons__img {
+  width: 485px;
+  height: 333px;
+  padding-top: 234px;
+  padding-bottom: 234px;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
+    height: 735px;
+  }
+  .top__title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    max-width: 100%;
+    padding-top: 236px;
+  }
+  .top__text {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    max-width: 100%;
+    padding-top: 32px;
+  }
+  .top__text_link {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .mob-button {
+    display: flex;
+    justify-content: center;
+    /* Горизонтальное выравнивание по центру */
+  }
+  .content__card_img {
+    width: 343px;
+  }
+}
+.Seasons__title {
+  text-align: center;
+  font-size: 32px;
+  padding-top: 51px;
+}
+
+.Seasons__text {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  width: 343px;
+}
+
+.Seasons__img {
+  width: 344px;
+  height: 236px;
+  padding-top: 64px;
 }/*# sourceMappingURL=style.css.map */

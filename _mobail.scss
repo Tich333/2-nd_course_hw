@@ -1,0 +1,73 @@
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top{
+    height: 735px;
+  }
+  .top__title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    max-width: 100%;
+    padding-top: 236px;
+  }
+  .top__text{
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    max-width: 100%;
+    padding-top: 32px;
+  }
+  .top__text_link{
+    font-size: 14px;
+    line-height: 22px;
+  }
+    .mob-button {
+      // padding-top: 32px;
+      display: flex;
+      justify-content: center;
+      /* Горизонтальное выравнивание по центру */
+      // align-items: center;
+      // /* Вертикальное выравнивание по центру */
+      // height: 100vh;
+      // /* 100% высоты видимой области браузера */
+  }
+  .content__card_img{
+    width: 343px;
+  }    
+}
+
+.Seasons__title {
+  text-align: center;
+  font-size: 32px;
+  padding-top: 51px;
+}
+    
+.Seasons__text {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  width: 343px;
+}
+
+.Seasons__img {
+  width: 344px;
+  height: 236px;
+  padding-top: 64px;
+} 
+
+
+
+    
+    
+    
+    
+    
+    
+    
+  
+  
+    
