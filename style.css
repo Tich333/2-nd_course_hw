@@ -102,13 +102,10 @@ a {
 }
 
 .Seasons {
-  background-image: url(./img/Seasons.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   display: flex;
   flex-wrap: wrap;
   gap: 130px;
+  background-image: url(./img/Seasons.jpg);
   justify-content: center;
 }
 
@@ -206,6 +203,76 @@ a {
   transform: scale(1.05);
 }
 
+.puzzles {
+  background-image: url(./img/puzzles_bac.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.puzzles__game_title {
+  color: #FFF;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  padding-top: 276px;
+}
+
+.puzzles__game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
+}
+
+.puzzles__game_text {
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  padding-top: 32px;
+}
+
+.puzzles__game_button {
+  border-radius: 30px;
+  background: #9C0332;
+  border: none;
+  width: 234.063px;
+  height: 48.603px;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 13px 74px;
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 288px;
+  transition: all 0.5s;
+}
+.puzzles__game_button:hover {
+  cursor: url(img/top_cursor.svg), pointer;
+  background: #EB443F;
+  transform: scale(1.05);
+}
+
+.footer {
+  background-image: url(img/footer_bac.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.footer__band {
+  height: 1px;
+  background: rgba(184, 212, 255, 0.2);
+}
+.footer__text {
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 400;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -264,11 +331,13 @@ a {
   }
   .words {
     flex-direction: column-reverse;
+    align-items: center;
   }
   .words__img {
     padding-top: 77px;
     padding-bottom: 90px;
     height: 231px;
+    width: 344px;
   }
   .words__img_joystick {
     width: 344px;
@@ -291,4 +360,14 @@ a {
     padding-top: 32px;
     text-align: center;
   }
-}/*# sourceMappingURL=style.css.map */
+  .puzzles__game_title {
+    font-size: 32px;
+  }
+  .puzzles__game_text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .footer__band {
+    display: none;
+  }
+}
