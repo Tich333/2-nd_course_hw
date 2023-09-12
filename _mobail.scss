@@ -37,8 +37,12 @@
   .content__card_img{
     width: 343px;
   }    
-
-
+  
+  
+.Seasons {
+  justify-content: center;
+  gap: 0px;
+}
 .Seasons__title {
   text-align: center;
   font-size: 32px;
@@ -57,54 +61,57 @@
   width: 344px;
   height: 236px;
   padding-top: 64px;
+  padding-bottom: 85px;
 } 
 
+ 
+  .words {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+ .words__img {
+  padding-top: 77px;
+  padding-bottom: 90px;
+  height: 231px;
+  width: 344px; 
+ }
+
+ .words__img_joystick {
+   width: 344px;
+ }
+
+ .words__right {
+   width: 342px;
+
+   &_title {
+     color: #FFF;
+     font-size: 32px;
+     font-weight: 700;
+     text-align: center;
+     padding-top: 51px;
+   }
+
+   &_text {
+     color: #FFF;
+     font-size: 14px;
+     font-weight: 300;
+     line-height: 22px;
+     padding-top: 32px;
+     text-align: center;
+   }
+ }
 
 
-    
-    
-    
-    
-    
-    
-    
-  
-  
-    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.puzzles__game_title {
-  font-size: 32px;
-}
-.puzzles__game_text {
-  font-size: 14px;
-  line-height: 22px;
-}
-.footer__band{
-  display: none;
-}
+  .puzzles__game_title {
+    font-size: 32px;
+  }
+  .puzzles__game_text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .footer__band{
+    display: none;
+  }
 }
