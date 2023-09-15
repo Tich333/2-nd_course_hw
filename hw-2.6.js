@@ -95,7 +95,13 @@
 // /* Задание 9 */
 // const arr = [[1, 2, 3,], [4, 5, 6]];
 // const unitedArr = arr[0].concat(arr[1]);
+
 // console.log(unitedArr);
+
+// // const arr = [[1, 2, 3], [4, 5, 6]];
+// // const flatArray = arr.flat();/* С FLAT даже лучше */
+
+// // console.log(flatArray);
 
 
 // /* Задание 10 */
